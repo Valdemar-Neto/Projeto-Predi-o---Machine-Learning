@@ -39,12 +39,49 @@ A base de dados do lop é compostas por muitas linhas e colunas, em que cada lin
 Onde N é o numero da lista. Ex.: 01,02,03,...,N.
 
 ## Metodologia 
-* Explicar quais técnicas de _machine learning_ (ML) que você está trabalhando. 
-* Explicar as etapas do treinamento e teste. 
-* Caso tenha selecionado atributos, explicar a motivação para a seleção de tais atributos. 
+A partir da explanação das aulas foi possível utilizar de alguns métodos para análiar os dados. Utilizando da biblioteca pandas no python, pode-se fazer algumas alterações e escolhas necessárias no banco de dados fornecido. Após estudar a base de dados, parti para ihteração entre o python o banco de dodos, onde foi possível constatar que a base de dados estava desbalanceada, tornando o resultado final pendendo para um dos lados. Nesse sentido, foi necessario balancear o banco de dados, utilizando os próprios dados, para gerar valores aleatórios até que a base estivesse nivelada.
+Após o nivelamento, parti para a escolha das classes para trabalhar e ao printar na tela essas classes escolhidas, notei que era preciso normalizá-las, para isso utilzei a biblioteca sickit-learn com o método MinMaxScaler para normalizar os valores entre 0 e 1. O método que escolhi para treinar a rede foi o Suport Vector Machine (SVM). Após o treinamento foi possível constatar os seguintes resultados, utilizando o metodo a classe metrics da biblioteca mencionada anteriormente:
+- Acurácia: 95.03 %
+- Balanço médio da acurácia de: 94.87%
+- Precisão do modelo: 95.6%
 
+Para esses resultados, foram escolhidas as seguintes classe:
+- Para o treinamento (X): 'totalAcertL01','aprovadoLista01','subm/questL01','timeInSecoundsL01','time/submL01'
+- Para a predição (Y): 'SubmeteuL10'
 ## Códigos 
-* Mostrar trechos de códigos mais importantes e explicações.  
+<div align = "left">
+  <img src="https://github.com/Valdemar-Neto/Projeto-Predi-o---Machine-Learning/assets/108936921/c8340988-3e68-4e84-a8f2-24570397ae7a">  
+</div>
+
+<div align = "left">
+  <img src="https://github.com/Valdemar-Neto/Code-Recognition-color-/assets/108936921/e9be41ce-d8a0-4ea1-bb4e-e859efef085c">  
+</div>
+
+<div align = "left">
+  <img src="https://github.com/Valdemar-Neto/Code-Recognition-color-/assets/108936921/a990ab9c-28db-4d21-acf2-47b8e51ebeba">  
+</div>
+
+<div align = "left">
+  <img src="https://github.com/Valdemar-Neto/Code-Recognition-color-/assets/108936921/e23995ad-47dc-488d-87eb-bf9025b3aa8f">  
+</div>
+
+<div align = "center">
+  <img src="https://github.com/Valdemar-Neto/Code-Recognition-color-/assets/108936921/56d3eb2c-b0b4-4ede-ac79-8ccc1e648e7b">  
+</div>
+
+<div align = "left">
+  <img src="https://github.com/Valdemar-Neto/Code-Recognition-color-/assets/108936921/3a08f038-546a-4a4a-8b39-d1f195188434">  
+</div>
+
+<div align = "left">
+  <img src="https://github.com/Valdemar-Neto/Code-Recognition-color-/assets/108936921/7abbf54d-0620-4d7b-b090-632f8d39ff31">  
+</div>
+
+<div align = "left">
+  <img src="https://github.com/Valdemar-Neto/Code-Recognition-color-/assets/108936921/036fb115-7dc7-4832-a314-6f8c4390f683">  
+</div>
+
+
 * Informar o link para acessar o código. 
 
 ## Experimentos 
