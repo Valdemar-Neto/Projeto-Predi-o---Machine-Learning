@@ -12,8 +12,31 @@
 * Colocar o link para o vídeo da apresentação do trabalho. 
 
 ### Informações Gerais 
-* Descrever o problema.  
-* Descrever a base de dados.  
+Sem dúvidas, um dos principais problemas que afetam os índices estudantis em todo territorio brasileiro é evasão escolar, isso é perceptível muito nas universidades federais brasileiras, onde muitos universitários largam a máteria antes mesmo da metade do semestre letivo. Este trabalho teve como finalidade estudar, a partir da base de dados fornecida pelo Prof. Dr. Orivaldo Santana, predizer se determinado estudante submetia a lista 10 da disciplina de Lógica de Programação (LOP) a partir da lista 1. Esse processo foi também utilizado para anlisar o mesmo objetivo com as listas 11 e lista 12.
+A base de dados do lop é compostas por muitas linhas e colunas, em que cada linha é caracterizada por um atributo importante para á análise. Tendo como classes principaiis:
+- Class_id
+- user_id
+- qtdList
+- percentList
+- medialist
+- aprovado
+- ateLista
+- totalErrorLN
+- totalAcertLN
+- acert_100LN
+- total_submLN
+- totalQuestLN
+- subm/questLN
+- timeInSecoundsLN
+- submeteuLN
+- aprovadoListaN
+- medialistN
+- percentErrorLN
+- percentAcertLN
+- percentAcert100LN
+- time/submLN
+
+Onde N é o numero da lista. Ex.: 01,02,03,...,N.
 
 ## Metodologia 
 * Explicar quais técnicas de _machine learning_ (ML) que você está trabalhando. 
