@@ -81,8 +81,8 @@ Para esses resultados, foram escolhidas as seguintes classe:
   <img src="https://github.com/Valdemar-Neto/Code-Recognition-color-/assets/108936921/036fb115-7dc7-4832-a314-6f8c4390f683">  
 </div>
 
-
-* Informar o link para acessar o código. 
+Link para o código no Google Colaboratory
+https://colab.research.google.com/drive/15Aoc8NnzyHLZQwizSpBMH0JL2JcxhVrd?usp=sharing
 
 ## Experimentos 
 * Descrever em detalhes os tipos de testes executados. 
