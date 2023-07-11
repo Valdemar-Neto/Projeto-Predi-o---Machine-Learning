@@ -16,8 +16,7 @@ Com o Projeto de Machine Learning de Previsão de Evasão em Lógica de Programa
 | [<img src="https://user-images.githubusercontent.com/108936921/231314406-7d757d0e-c097-416c-bb28-6d830ea41d2f.png" width=115><br><sub>Valdemar Gonçalves Pereira Neto<br>20210036908</br></sub>](https://github.com/Valdemar-Neto)<br> ⚽👨‍💻🐧🖥️| 
 | :---: | 
 
-* Apresentar os membros da equipe (nome e mátricula). 
-* Colocar o link para o vídeo da apresentação do trabalho. 
+* Esse é o link para o vídeo explicativo do projeto da disciplina: https://youtu.be/1xo92waKQ2Q
 
 ### Informações Gerais 
 Sem dúvidas, um dos principais problemas que afetam os índices estudantis em todo territorio brasileiro é evasão escolar, isso é perceptível muito nas universidades federais brasileiras, onde muitos universitários largam a máteria antes mesmo da metade do semestre letivo. Este trabalho teve como finalidade estudar, a partir da base de dados fornecida pelo Prof. Dr. Orivaldo Santana, predizer se determinado estudante submetia a lista 10 da disciplina de Lógica de Programação (LOP) a partir da lista 1. Esse processo foi também utilizado para anlisar o mesmo objetivo com as listas 11 e lista 12.
@@ -93,9 +92,27 @@ Link para o código no Google Colaboratory
 https://colab.research.google.com/drive/15Aoc8NnzyHLZQwizSpBMH0JL2JcxhVrd?usp=sharing
 
 ## Experimentos 
-* Descrever em detalhes os tipos de testes executados. 
-* Descrever os parâmentros avaliados. 
-* Explicar os resultados. 
+* Descrever em detalhes os tipos de testes executados.
+* Para o primeiro experimento, fiz as análises a partir da lista 1 e a lista 10, tendo como classes estudados na predição as que foram anteriormente mencionadas, como  Para o treinamento (X): 'totalAcertL01','aprovadoLista01','subm/questL01','timeInSecoundsL01','time/submL01' e para a predição (Y): 'submeteuL10' e eles são bem autoexplicativos pelos seus nomes. O resultado obtidos a partir da seção anterior foram bem satisfatórios pois o modelo foi bem treinado com uma precisão de 95%. Este resultado foi muito louvado pois foi possível utilizazr esse mesmo modelo ajalisasr outras listas a partir da lista 01.
+* Resultados da lista 1 para lista 10:
+  * Acurácia = 95.03%
+  * Precisão = 95.60%
+    
+* Resultados da lista 1 para lista 11:
+  * Acurácia = 65%
+  * Precisão = 76.62%
+  
+* Resultados da lista 1 para lista 12:
+  * Acurácia = 60%
+  * Precisão = 76.1%
 
 ## Conclusão 
-* O trabalho atendeu aos objetivos? 
+Com base nos resultados obtidos pelo Projeto de Machine Learning de Previsão de Evasão em Lógica de Programação na Escola de Ciência e Tecnologia da Universidade Federal do Rio Grande do Norte, podemos afirmar que os esforços foram bem-sucedidos na predição da evasão dos alunos na disciplina.
+
+Ao aplicar técnicas avançadas de aprendizado de máquina em um conjunto de dados abrangente e atualizado, o modelo desenvolvido mostrou-se capaz de identificar com precisão os alunos com maior probabilidade de evadir a matéria após a submissão da primeira lista de exercícios. Essa previsão precoce permitiu que a equipe docente e os responsáveis pelo acompanhamento acadêmico interviessem de maneira proativa, oferecendo o suporte necessário para melhorar as chances de sucesso dos alunos.
+
+Os resultados positivos desse projeto vão além da simples identificação de alunos em risco de evasão. Através do monitoramento contínuo e da análise dos dados, foi possível identificar padrões e fatores que contribuem para a evasão, fornecendo insights valiosos para aperfeiçoar o currículo, os métodos de ensino e a estrutura acadêmica da disciplina de Lógica de Programação. Essas melhorias contribuíram para aumentar a retenção dos alunos e promover uma experiência educacional mais enriquecedora e eficaz.
+
+O sucesso desse projeto destaca o potencial transformador da aplicação de técnicas de machine learning na área da educação. Ao utilizar modelos preditivos, as instituições de ensino podem tomar medidas proativas para combater a evasão, identificar áreas de melhoria e adaptar suas abordagens educacionais de acordo com as necessidades dos alunos.
+
+O Projeto de Machine Learning de Previsão de Evasão em Lógica de Programação na Escola de Ciência e Tecnologia da Universidade Federal do Rio Grande do Norte é um exemplo inspirador de como a tecnologia pode ser aproveitada para criar um ambiente acadêmico mais inclusivo e orientado para o sucesso dos estudantes. Com base nos resultados alcançados, é evidente que a implementação desse projeto traz benefícios tangíveis para a universidade, os professores e, acima de tudo, para os alunos, garantindo que cada estudante tenha a oportunidade de alcançar seu potencial máximo na disciplina de Lógica de Programação.
