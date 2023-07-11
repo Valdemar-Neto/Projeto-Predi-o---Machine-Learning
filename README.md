@@ -1,9 +1,17 @@
 # Predição de desistência de alunos da disciplina LOP na Escola de Ciências e Tecnologia da UFRN - Projeto de Machine Learning
 
-# Título do Trabalho 
-
 ## Introdução
+Imagine um projeto inovador na Escola de Ciência e Tecnologia da Universidade Federal do Rio Grande do Norte, que utiliza aprendizado de máquina para prever se um aluno que submete a primeira lista de exercícios da disciplina de Lógica de Programação tem maior probabilidade de evadir a matéria ao chegar na lista 10. Este projeto revolucionário busca antecipar e combater a evasão escolar, promovendo uma educação mais eficiente e eficaz.
 
+A equipe de pesquisa e desenvolvimento desse projeto está empregando técnicas avançadas de machine learning, usando um conjunto de dados abrangente e atualizado, composto por informações acadêmicas dos alunos matriculados na disciplina de Lógica de Programação ao longo dos últimos anos. Esses dados incluem variáveis relevantes, como o desempenho nas listas anteriores, notas em provas, frequência nas aulas, histórico acadêmico e demais características pessoais dos estudantes.
+
+Com base nesse conjunto de dados, o modelo de machine learning é treinado para analisar e identificar padrões que possam indicar quais alunos têm maior probabilidade de evadir a matéria após a primeira lista de exercícios. O algoritmo desenvolvido é capaz de extrair informações complexas e sutis dos dados, criando uma representação estatística dos fatores que influenciam na evasão escolar.
+
+Ao utilizar esse modelo preditivo, os professores e coordenadores da disciplina de Lógica de Programação podem identificar antecipadamente os alunos em risco de evasão e implementar estratégias personalizadas para auxiliá-los. Isso pode envolver o oferecimento de apoio acadêmico adicional, orientação vocacional, aconselhamento psicológico ou outras ações preventivas. O objetivo é intervir de maneira oportuna, fornecendo o suporte necessário para melhorar as chances de sucesso dos alunos e reduzir a taxa de evasão.
+
+Além disso, o projeto também permite uma visão mais ampla do cenário da disciplina, permitindo que a instituição identifique possíveis melhorias no currículo, métodos de ensino ou até mesmo no ambiente acadêmico como um todo. Através do monitoramento contínuo e da análise dos resultados obtidos, a universidade pode adaptar suas abordagens educacionais, oferecer recursos adicionais e criar políticas mais eficazes para aumentar a retenção dos alunos.
+
+Com o Projeto de Machine Learning de Previsão de Evasão em Lógica de Programação, a Escola de Ciência e Tecnologia da Universidade Federal do Rio Grande do Norte está liderando o caminho para uma educação mais personalizada e centrada no aluno. Essa iniciativa pioneira visa garantir que nenhum aluno seja deixado para trás, proporcionando oportunidades iguais e ajudando a construir um futuro promissor para todos os estudantes.
 ### Identificação 
 | [<img src="https://user-images.githubusercontent.com/108936921/231314406-7d757d0e-c097-416c-bb28-6d830ea41d2f.png" width=115><br><sub>Valdemar Gonçalves Pereira Neto<br>20210036908</br></sub>](https://github.com/Valdemar-Neto)<br> ⚽👨‍💻🐧🖥️| 
 | :---: | 
